@@ -24,7 +24,7 @@ pause = () => {
     clearInterval(this.interval);
 };
 
-tick = () => {
+tick = () => {  
     if(this.timeRemaining <= 0 ){
         this.pause();
         if (this.onComplete) {
